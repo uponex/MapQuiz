@@ -52,7 +52,6 @@ class ViewController1: UIViewController, MGLMapViewDelegate{
 //        banerView.load(request)
         
         //annotationContextView = UIView(frame:CGRect(x:100, y:100, width:50, height:50))
-
         
         self.view.addSubview(annotationContextView)
         mapView = MGLMapView(frame: view.bounds, styleURL: styleURL)
@@ -60,7 +59,6 @@ class ViewController1: UIViewController, MGLMapViewDelegate{
         mapView.delegate = self
         mapViewContainer.addSubview(mapView)
         
-        //annotationContextView.isHidden = false
         // Set the map’s center coordinate and zoom level.
         mapView.setCenter(CLLocationCoordinate2D(latitude: lat, longitude: lon), zoomLevel: 8, animated: false)
         
