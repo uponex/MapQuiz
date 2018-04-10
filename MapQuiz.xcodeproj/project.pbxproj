@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A349F982C1B27943D608F3CC /* Pods_MapQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB2F35075A1C72FDAB9DC78 /* Pods_MapQuiz.framework */; };
+		F2038EF5203048BD004897FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2038EF4203048BD004897FE /* AppDelegate.swift */; };
+		F2038EFA203048BD004897FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2038EF8203048BD004897FE /* Main.storyboard */; };
+		F2038EFC203048BD004897FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2038EFB203048BD004897FE /* Assets.xcassets */; };
+		F2038EFF203048BD004897FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2038EFD203048BD004897FE /* LaunchScreen.storyboard */; };
+		F2038F0720304B3E004897FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2038F0620304B3E004897FE /* HomeViewController.swift */; };
+		F2038F09203055DD004897FE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2038F08203055DD004897FE /* TableViewController.swift */; };
+		F2038F0F20305F15004897FE /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2038F0E20305F15004897FE /* ViewController1.swift */; };
+		F221C9F72067CB7900B3E558 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F221C9F52067CB7800B3E558 /* ProgressHUD.bundle */; };
+		F221C9F82067CB7900B3E558 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F221C9F62067CB7800B3E558 /* ProgressHUD.m */; };
+		F221C9FA2067D43E00B3E558 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F221C9F92067D43E00B3E558 /* GoogleService-Info.plist */; };
+		F2573E7420309664002371E9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2573E7320309664002371E9 /* Question.swift */; };
+		F2573E76203096F5002371E9 /* QuestionBank1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2573E75203096F5002371E9 /* QuestionBank1.swift */; };
+		F2A3E3A8203CA52E0027FC8D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A3E3A7203CA52E0027FC8D /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4018AC44D502B790EA765FC8 /* Pods-MapQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapQuiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapQuiz/Pods-MapQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		BDB2F35075A1C72FDAB9DC78 /* Pods_MapQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39191FFFDB6184E06E346ED /* Pods-MapQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapQuiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapQuiz/Pods-MapQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		F2038EF1203048BD004897FE /* MapQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2038EF4203048BD004897FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2038EF9203048BD004897FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2038EFB203048BD004897FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2038EFE203048BD004897FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2038F00203048BD004897FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2038F0620304B3E004897FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F2038F08203055DD004897FE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F2038F0E20305F15004897FE /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		F221C9F32067CB7800B3E558 /* MapQuiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapQuiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		F221C9F42067CB7800B3E558 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		F221C9F52067CB7800B3E558 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		F221C9F62067CB7800B3E558 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		F221C9F92067D43E00B3E558 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2573E7320309664002371E9 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F2573E75203096F5002371E9 /* QuestionBank1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank1.swift; sourceTree = "<group>"; };
+		F2A3E3A7203CA52E0027FC8D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2038EEE203048BD004897FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A349F982C1B27943D608F3CC /* Pods_MapQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579D247FF52CA007CE3EF0FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E39191FFFDB6184E06E346ED /* Pods-MapQuiz.debug.xcconfig */,
+				4018AC44D502B790EA765FC8 /* Pods-MapQuiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAC0CA338F8742F97C3FC28C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2F35075A1C72FDAB9DC78 /* Pods_MapQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2038EE8203048BD004897FE = {
+			isa = PBXGroup;
+			children = (
+				F2038EF3203048BD004897FE /* MapQuiz */,
+				F2038EF2203048BD004897FE /* Products */,
+				579D247FF52CA007CE3EF0FD /* Pods */,
+				AAC0CA338F8742F97C3FC28C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2038EF2203048BD004897FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2038EF1203048BD004897FE /* MapQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2038EF3203048BD004897FE /* MapQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				F2038F0C20305C19004897FE /* Model */,
+				F2038F0B20305BCF004897FE /* View */,
+				F2038F0A20305BB2004897FE /* Controllers */,
+				F2038EFD203048BD004897FE /* LaunchScreen.storyboard */,
+				F2038F00203048BD004897FE /* Info.plist */,
+				F2038F0D20305C91004897FE /* Supporting Files */,
+			);
+			path = MapQuiz;
+			sourceTree = "<group>";
+		};
+		F2038F0A20305BB2004897FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2038EF4203048BD004897FE /* AppDelegate.swift */,
+				F2038F0620304B3E004897FE /* HomeViewController.swift */,
+				F2038F08203055DD004897FE /* TableViewController.swift */,
+				F2038F0E20305F15004897FE /* ViewController1.swift */,
+				F2A3E3A7203CA52E0027FC8D /* AboutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2038F0B20305BCF004897FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2038EFB203048BD004897FE /* Assets.xcassets */,
+				F2038EF8203048BD004897FE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2038F0C20305C19004897FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2573E7320309664002371E9 /* Question.swift */,
+				F2573E75203096F5002371E9 /* QuestionBank1.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2038F0D20305C91004897FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F221C9F92067D43E00B3E558 /* GoogleService-Info.plist */,
+				F221C9F52067CB7800B3E558 /* ProgressHUD.bundle */,
+				F221C9F42067CB7800B3E558 /* ProgressHUD.h */,
+				F221C9F62067CB7800B3E558 /* ProgressHUD.m */,
+				F221C9F32067CB7800B3E558 /* MapQuiz-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2038EF0203048BD004897FE /* MapQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2038F03203048BD004897FE /* Build configuration list for PBXNativeTarget "MapQuiz" */;
+			buildPhases = (
+				4D2911530E1B42B9215E2D4C /* [CP] Check Pods Manifest.lock */,
+				F2038EED203048BD004897FE /* Sources */,
+				F2038EEE203048BD004897FE /* Frameworks */,
+				F2038EEF203048BD004897FE /* Resources */,
+				54D9000F1F099C78430A9347 /* [CP] Embed Pods Frameworks */,
+				C8E6979ADA6FE7D4F8ABADF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapQuiz;
+			productName = MathAppTwo;
+			productReference = F2038EF1203048BD004897FE /* MapQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2038EE9203048BD004897FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = UponeX;
+				TargetAttributes = {
+					F2038EF0203048BD004897FE = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2038EEC203048BD004897FE /* Build configuration list for PBXProject "MapQuiz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2038EE8203048BD004897FE;
+			productRefGroup = F2038EF2203048BD004897FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2038EF0203048BD004897FE /* MapQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2038EEF203048BD004897FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F221C9F72067CB7900B3E558 /* ProgressHUD.bundle in Resources */,
+				F2038EFF203048BD004897FE /* LaunchScreen.storyboard in Resources */,
+				F221C9FA2067D43E00B3E558 /* GoogleService-Info.plist in Resources */,
+				F2038EFC203048BD004897FE /* Assets.xcassets in Resources */,
+				F2038EFA203048BD004897FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D2911530E1B42B9215E2D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D9000F1F099C78430A9347 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapQuiz/Pods-MapQuiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapQuiz/Pods-MapQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E6979ADA6FE7D4F8ABADF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapQuiz/Pods-MapQuiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2038EED203048BD004897FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2573E7420309664002371E9 /* Question.swift in Sources */,
+				F2038F0F20305F15004897FE /* ViewController1.swift in Sources */,
+				F2038EF5203048BD004897FE /* AppDelegate.swift in Sources */,
+				F2A3E3A8203CA52E0027FC8D /* AboutViewController.swift in Sources */,
+				F2038F09203055DD004897FE /* TableViewController.swift in Sources */,
+				F2038F0720304B3E004897FE /* HomeViewController.swift in Sources */,
+				F221C9F82067CB7900B3E558 /* ProgressHUD.m in Sources */,
+				F2573E76203096F5002371E9 /* QuestionBank1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2038EF8203048BD004897FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2038EF9203048BD004897FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2038EFD203048BD004897FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2038EFE203048BD004897FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2038F01203048BD004897FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2038F02203048BD004897FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2038F04203048BD004897FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39191FFFDB6184E06E346ED /* Pods-MapQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q6AD869SR;
+				INFOPLIST_FILE = "$(SRCROOT)/MapQuiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uponex.MapQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapQuiz/Supporting Files/MapQuiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2038F05203048BD004897FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4018AC44D502B790EA765FC8 /* Pods-MapQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q6AD869SR;
+				INFOPLIST_FILE = "$(SRCROOT)/MapQuiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uponex.MapQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapQuiz/Supporting Files/MapQuiz-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2038EEC203048BD004897FE /* Build configuration list for PBXProject "MapQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2038F01203048BD004897FE /* Debug */,
+				F2038F02203048BD004897FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2038F03203048BD004897FE /* Build configuration list for PBXNativeTarget "MapQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2038F04203048BD004897FE /* Debug */,
+				F2038F05203048BD004897FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2038EE9203048BD004897FE /* Project object */;
+}
